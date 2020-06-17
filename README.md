@@ -4,6 +4,8 @@ Lightweight Low-BS Dependency-Free Pretty Table Implementation In Just Under 40 
 ## Syntax:
 Syntax should be identical to the basic syntax of [PrettyTable](https://github.com/jazzband/prettytable)
 ```
+from ptl import PrettyTableLite
+
 x = PrettyTableLite()
 
 x.field_names = ["City name", "Area", "Population", "Annual Rainfall"]
