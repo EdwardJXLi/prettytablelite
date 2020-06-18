@@ -4,6 +4,8 @@ Lightweight Low-BS Dependency-Free Pretty Table Implementation In Just Under 40 
 ## Syntax:
 Syntax should be identical to the basic syntax of [PrettyTable](https://github.com/jazzband/prettytable)
 ```
+from ptl import PrettyTableLite
+
 x = PrettyTableLite()
 
 x.field_names = ["City name", "Area", "Population", "Annual Rainfall"]
@@ -15,6 +17,8 @@ x.add_row(["Hobart", 1357, 205556, 619.5])
 x.add_row(["Sydney", 2058, 4336374, 1214.8])
 x.add_row(["Melbourne", 1566, 3806092, 646.9])
 x.add_row(["Perth", 5386, 1554769, 869.4])
+
+print(x)
 ```
 Output:
 ```
