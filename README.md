@@ -1,5 +1,5 @@
 # PrettyTableLite
-Lightweight Low-BS Dependency-Free Pretty Table Implementation In Just Under 40 Lines
+Lightweight Low-BS Dependency-Free Python Pretty Table Library In Just Under 40 Lines
 
 ## Syntax:
 Syntax should be identical to the basic syntax of [PrettyTable](https://github.com/jazzband/prettytable)
